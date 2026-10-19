@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Corlith — Cinematic SEO agency engineering search dominance through data, design, and craft." />
+  <title>Corlith — Cinematic SEO Agency</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <div class="preloader" id="preloader">
+    <div class="preloader__inner">
+      <div class="preloader__count" id="preloaderCount">0</div>
+      <div class="preloader__bar"><span id="preloaderBar"></span></div>
+      <div class="preloader__label">CORLITH / LOADING</div>
+    </div>
+    <div class="preloader__bg"></div>
+  </div>
+
+  <div class="grain"></div>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <nav class="nav" id="nav">
+    <a href="#home" class="nav__logo" data-cursor="hover">
+      <span class="nav__logo-mark">◐</span>
+      <span class="nav__logo-text">CORLITH</span>
+    </a>
+    <ul class="nav__menu">
+      <li><a href="#work" data-cursor="hover">Work</a></li>
+      <li><a href="#services" data-cursor="hover">Services</a></li>
+      <li><a href="#process" data-cursor="hover">Process</a></li>
+      <li><a href="#contact" data-cursor="hover">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav__cta" data-cursor="hover">
+      <span>Start a project</span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H3M13 1V11" stroke="currentColor" stroke-width="1.5"/></svg>
+    </a>
+  </nav>
+
+  <div class="smooth-wrapper">
+
+    <section class="hero" id="home">
+      <canvas id="heroCanvas"></canvas>
+      <div class="hero__overlay"></div>
+
+      <div class="hero__content">
+        <div class="hero__tag">
+          <span class="hero__tag-dot"></span>
+          <span>SEO / Performance / Growth</span>
+        </div>
+
+        <h1 class="hero__title">
+          <span class="line"><span>Engineering</span></span>
+          <span class="line"><span><em>search</em> dominance</span></span>
+          <span class="line"><span>at scale.</span></span>
+        </h1>
+
+        <p class="hero__sub">
+          Corlith is a boutique SEO studio crafting cinematic growth systems for brands that refuse to be invisible.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#work" class="btn btn--primary" data-cursor="hover">
+            <span>See the work</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M1 8H15M15 8L8 1M15 8L8 15" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+          <a href="#contact" class="btn btn--ghost" data-cursor="hover">Book a call</a>
+        </div>
+      </div>
+
+      <div class="hero__meta">
+        <div class="hero__meta-item">
+          <span class="hero__meta-label">Index</span>
+          <span class="hero__meta-value">2026 / Q2</span>
+        </div>
+        <div class="hero__meta-item">
+          <span class="hero__meta-label">Studios</span>
+          <span class="hero__meta-value">NYC · LDN · TYO</span>
+        </div>
+        <div class="hero__meta-item">
+          <span class="hero__meta-label">Scroll</span>
+          <span class="hero__meta-value hero__scroll-indicator">↓ Begin</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee">
+      <div class="marquee__track" id="marqueeTrack">
+        <span>Technical SEO</span><span>✦</span>
+        <span>Content Engineering</span><span>✦</span>
+        <span>Link Architecture</span><span>✦</span>
+        <span>Search Intent</span><span>✦</span>
+        <span>Data &amp; Analytics</span><span>✦</span>
+        <span>Generative Search</span><span>✦</span>
+        <span>Technical SEO</span><span>✦</span>
+        <span>Content Engineering</span><span>✦</span>
+        <span>Link Architecture</span><span>✦</span>
+        <span>Search Intent</span><span>✦</span>
+        <span>Data &amp; Analytics</span><span>✦</span>
+        <span>Generative Search</span><span>✦</span>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section__head">
+        <span class="eyebrow">/ 01 — Studio</span>
+        <h2 class="section__title">
+          A studio built for the<br/>
+          <em>post-algorithm</em> era.
+        </h2>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__copy">
+          <p class="about__lede">
+            We're not an agency that ships checklists. Corlith is a small, obsessive team of SEO engineers, content strategists, and growth designers building the kind of organic presence most companies can only envy.
+          </p>
+          <p>
+            Every audit we run is forensic. Every piece of content we ship is built to outlast the next algorithm shift. Every link we earn is placed with intent. The result: search engines that reward our clients for years, not weeks.
+          </p>
+        </div>
+
+        <div class="about__pillars">
+          <div class="pillar" data-cursor="hover">
+            <div class="pillar__num">01</div>
+            <h3>Forensic Audits</h3>
+            <p>1,200+ point technical inspections covering crawl, indexation, schema, CWV and beyond.</p>
+          </div>
+          <div class="pillar" data-cursor="hover">
+            <div class="pillar__num">02</div>
+            <h3>Content Engineering</h3>
+            <p>Topical maps and pillar architectures designed to capture intent at every stage of the funnel.</p>
+          </div>
+          <div class="pillar" data-cursor="hover">
+            <div class="pillar__num">03</div>
+            <h3>Authority Systems</h3>
+            <p>Digital PR and link programs built on real relationships — not rented networks.</p>
+          </div>
+          <div class="pillar" data-cursor="hover">
+            <div class="pillar__num">04</div>
+            <h3>Generative SEO</h3>
+            <p>Optimized for both classic SERPs and the new world of LLM-driven answer engines.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" id="stats">
+      <div class="stats__bg" id="statsBg"></div>
+      <div class="stats__inner">
+        <div class="stat">
+          <div class="stat__num" data-count="312">0</div>
+          <div class="stat__suffix">%</div>
+          <div class="stat__label">Average organic growth<br/>across 24-month engagements</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num" data-count="1.4">0</div>
+          <div class="stat__suffix">B</div>
+          <div class="stat__label">Cumulative sessions driven<br/>to client properties</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num" data-count="97">0</div>
+          <div class="stat__suffix">%</div>
+          <div class="stat__label">Client retention rate<br/>measured year over year</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num" data-count="42">0</div>
+          <div class="stat__suffix">+</div>
+          <div class="stat__label">Top-3 ranking keywords<br/>won for our partners</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section__head section__head--center">
+        <span class="eyebrow">/ 02 — Capabilities</span>
+        <h2 class="section__title">
+          Everything required to<br/>
+          <em>own</em> a category.
+        </h2>
+      </div>
+
+      <div class="services__list">
+        <div class="service" data-cursor="hover">
+          <div class="service__index">01</div>
+          <div class="service__body">
+            <h3>Technical SEO</h3>
+            <p>Crawl budget, indexation, JavaScript rendering, schema, Core Web Vitals, log file analysis. The invisible infrastructure that wins rankings.</p>
+          </div>
+          <ul class="service__tags">
+            <li>CWV</li><li>Schema</li><li>JS SEO</li><li>Logs</li>
+          </ul>
+        </div>
+        <div class="service" data-cursor="hover">
+          <div class="service__index">02</div>
+          <div class="service__body">
+            <h3>Content &amp; Topical Authority</h3>
+            <p>Topical maps, pillar clusters, and editorial systems engineered to satisfy search intent at scale — with a writer's room that actually ships.</p>
+          </div>
+          <ul class="service__tags">
+            <li>Strategy</li><li>Editorial</li><li>Briefs</li><li>Clusters</li>
+          </ul>
+        </div>
+        <div class="service" data-cursor="hover">
+          <div class="service__index">03</div>
+          <div class="service__body">
+            <h3>Digital PR &amp; Link Building</h3>
+            <p>Story-led campaigns, journalist relationships, and authority placements on the publications that move rankings and brand perception.</p>
+          </div>
+          <ul class="service__tags">
+            <li>PR</li><li>HARO</li><li>Pitching</li><li>Outreach</li>
+          </ul>
+        </div>
+        <div class="service" data-cursor="hover">
+          <div class="service__index">04</div>
+          <div class="service__body">
+            <h3>Generative Engine Optimization</h3>
+            <p>Optimized for ChatGPT, Perplexity, Gemini and Google's AI Overviews — the new front door of search.</p>
+          </div>
+          <ul class="service__tags">
+            <li>LLMs</li><li>AEO</li><li>Entities</li><li>Structured</li>
+          </ul>
+        </div>
+        <div class="service" data-cursor="hover">
+          <div class="service__index">05</div>
+          <div class="service__body">
+            <h3>Analytics &amp; Attribution</h3>
+            <p>GA4, server-side tagging, custom dashboards, and incrementality testing so you know exactly which dollar returned which click.</p>
+          </div>
+          <ul class="service__tags">
+            <li>GA4</li><li>BigQuery</li><li>Looker</li><li>MMP</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="section__head">
+        <span class="eyebrow">/ 03 — Selected Work</span>
+        <h2 class="section__title">
+          Case studies<br/>
+          that <em>compound.</em>
+        </h2>
+      </div>
+
+      <div class="work__list">
+        <a href="#" class="case" data-cursor="hover">
+          <div class="case__meta">
+            <span class="case__num">001</span>
+            <span class="case__cat">SaaS · B2B</span>
+          </div>
+          <h3 class="case__title">Northwind Labs</h3>
+          <p class="case__desc">Rebuilt the entire site architecture for a developer-tools SaaS — 4.8× organic pipeline in 9 months.</p>
+          <div class="case__stats">
+            <div><span>+482%</span>Organic</div>
+            <div><span>1 → 38</span>Top-3 KWs</div>
+            <div><span>$2.1M</span>Attributed</div>
+          </div>
+          <div class="case__arrow">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M1 39L39 1M39 1H11M39 1V29" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+        </a>
+
+        <a href="#" class="case" data-cursor="hover">
+          <div class="case__meta">
+            <span class="case__num">002</span>
+            <span class="case__cat">DTC · Commerce</span>
+          </div>
+          <h3 class="case__title">Halcyon Goods</h3>
+          <p class="case__desc">Topical authority build for a homeware brand, capturing 11,000+ non-branded keywords in 12 months.</p>
+          <div class="case__stats">
+            <div><span>+612%</span>Traffic</div>
+            <div><span>11.4K</span>Keywords</div>
+            <div><span>3.2×</span>ROAS</div>
+          </div>
+          <div class="case__arrow">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M1 39L39 1M39 1H11M39 1V29" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+        </a>
+
+        <a href="#" class="case" data-cursor="hover">
+          <div class="case__meta">
+            <span class="case__num">003</span>
+            <span class="case__cat">Fintech</span>
+          </div>
+          <h3 class="case__title">Ledgerwave</h3>
+          <p class="case__desc">Programmatic SEO engine for a B2B payments platform, indexing 4,200 commercial pages in 60 days.</p>
+          <div class="case__stats">
+            <div><span>4.2K</span>Pages</div>
+            <div><span>+$880K</span>ARR</div>
+            <div><span>92</span>DA</div>
+          </div>
+          <div class="case__arrow">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M1 39L39 1M39 1H11M39 1V29" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="section__head">
+        <span class="eyebrow">/ 04 — Process</span>
+        <h2 class="section__title">
+          A four-act<br/>
+          <em>engagement.</em>
+        </h2>
+      </div>
+
+      <div class="process__steps">
+        <div class="step">
+          <div class="step__num">I</div>
+          <h3>Forensic Discovery</h3>
+          <p>We tear down your current organic footprint — analytics, search console, log files, content, links, technical — and surface every obstacle to growth.</p>
+          <span class="step__time">Weeks 1–2</span>
+        </div>
+        <div class="step">
+          <div class="step__num">II</div>
+          <h3>Strategy Architecture</h3>
+          <p>A 12-month roadmap of prioritized initiatives: technical fixes, topical maps, link opportunities, content pipeline and measurement framework.</p>
+          <span class="step__time">Weeks 3–4</span>
+        </div>
+        <div class="step">
+          <div class="step__num">III</div>
+          <h3>Execution</h3>
+          <p>An embedded pod ships work weekly — engineering tickets, briefs, placements, dashboards. No bloated retainers, no theater.</p>
+          <span class="step__time">Months 2–11</span>
+        </div>
+        <div class="step">
+          <div class="step__num">IV</div>
+          <h3>Compounding</h3>
+          <p>After 12 months, your organic channel is a self-reinforcing asset. We hand over a fully documented playbook for your in-house team to own.</p>
+          <span class="step__time">Month 12+</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="section__head section__head--center">
+        <span class="eyebrow">/ 05 — Words from partners</span>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial__quote">"Corlith is the only agency I've worked with that genuinely understands search as an engineering discipline. They didn't just grow our traffic — they rebuilt the foundation underneath it."</p>
+        <div class="testimonial__author">
+          <span class="testimonial__name">Mara Holst</span>
+          <span class="testimonial__role">VP Growth, Northwind Labs</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <canvas id="contactCanvas"></canvas>
+      <div class="contact__inner">
+        <span class="eyebrow">/ 06 — Engage</span>
+        <h2 class="contact__title">
+          Let's build a search<br/>
+          presence that <em>lasts.</em>
+        </h2>
+        <p class="contact__sub">We take on four new partners a year. Tell us about your business and we'll be in touch within 48 hours.</p>
+
+        <form class="contact__form" onsubmit="event.preventDefault(); this.querySelector('.contact__success').classList.add('is-on'); this.querySelector('button').textContent='Sent ✓';">
+          <div class="field">
+            <label>Name</label>
+            <input type="text" required />
+          </div>
+          <div class="field">
+            <label>Company</label>
+            <input type="text" />
+          </div>
+          <div class="field field--full">
+            <label>Email</label>
+            <input type="email" required />
+          </div>
+          <div class="field field--full">
+            <label>Tell us about the project</label>
+            <textarea rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full" data-cursor="hover">
+            <span>Send the brief</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M1 8H15M15 8L8 1M15 8L8 15" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="contact__success">Thanks — we'll reply within 48 hours.</div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <span class="footer__logo">◐ CORLITH</span>
+          <p>SEO studio. NYC · LDN · TYO.</p>
+        </div>
+        <div class="footer__cols">
+          <div>
+            <h4>Studio</h4>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Press</a>
+          </div>
+          <div>
+            <h4>Work</h4>
+            <a href="#">Case studies</a>
+            <a href="#">Process</a>
+            <a hr56ef="#">Partners</a>
+          </div>
+          <div>
+            <h4>Connect</h4>
+            <a href="#">X / <Twitter class="com"></Twitter></a>
+            <a href="#"><Linkedin class="com"></Linkedin></a>
+            <a href="#">Read.cv</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__big">CORLITH</div>
+      <div class="footer__bottom">
+        <span>© 2026 Corlith Studio Ltd.</span>
+        <span>Built with intent.</span>
+        <span>v 4.2.0</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/three-hero.js"></script>
+  <script src="js/three-contact.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
